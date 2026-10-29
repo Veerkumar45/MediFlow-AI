@@ -1,0 +1,6 @@
+{
+  "name": "MediFlow AI",
+  "description": "Intelligent Healthcare Front Desk & Automation Platform for modern clinics - Smarter Clinics. Seamless Care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

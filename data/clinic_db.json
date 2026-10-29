@@ -1,0 +1,398 @@
+{
+  "clinic": {
+    "name": "Harmony Health Clinic",
+    "tagline": "Smarter Clinics. Seamless Care.",
+    "address": "742 Evergreen Medical Plaza, Suite 300, Springfield, IL 62704",
+    "phone": "+1 (217) 555-0199",
+    "email": "contact@harmonyhealthclinic.com",
+    "timeZone": "America/Chicago (CST)",
+    "openingHours": {
+      "weekdays": {
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "saturday": {
+        "start": "09:00",
+        "end": "13:00"
+      },
+      "sunday": {
+        "closed": true
+      }
+    },
+    "bookingPolicies": {
+      "advanceBookingDays": 30,
+      "cancellationWindowHours": 24,
+      "autoConfirmRequests": false,
+      "requirePhoneVerification": false
+    },
+    "aiReceptionist": {
+      "welcomeMessage": "Hello! I am your MediFlow AI assistant for Harmony Health Clinic. How can I help you today?",
+      "escalationThreshold": "Medical advice, emergencies, complex billing disputes, or unresolvable slot requests",
+      "allowedTopics": [
+        "Booking requests",
+        "Doctor schedules and specialties",
+        "Clinic hours and directions",
+        "Cancellation and rescheduling",
+        "Service preparation and fees"
+      ],
+      "clinicBio": "Harmony Health Clinic is a multi-specialty outpatient healthcare facility offering compassionate primary care, pediatrics, dermatology, cardiology consultations, and diagnostic wellness checkups."
+    }
+  },
+  "doctors": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Sarah Mitchell",
+      "title": "MD, FACP",
+      "specialty": "Internal & General Medicine",
+      "email": "s.mitchell@harmonyhealthclinic.com",
+      "phone": "+1 (217) 555-0101",
+      "workingDays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "workHours": {
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "breakHours": {
+        "start": "12:30",
+        "end": "13:30"
+      },
+      "servicesOffered": [
+        "srv-1",
+        "srv-2",
+        "srv-6"
+      ],
+      "roomNumber": "Consultation Suite 101"
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. Marcus Vance",
+      "title": "MD, FACC",
+      "specialty": "Cardiovascular Care",
+      "email": "m.vance@harmonyhealthclinic.com",
+      "phone": "+1 (217) 555-0102",
+      "workingDays": [
+        1,
+        3,
+        5
+      ],
+      "workHours": {
+        "start": "09:30",
+        "end": "16:30"
+      },
+      "breakHours": {
+        "start": "13:00",
+        "end": "14:00"
+      },
+      "servicesOffered": [
+        "srv-1",
+        "srv-4",
+        "srv-6"
+      ],
+      "roomNumber": "Cardiology Center 202"
+    },
+    {
+      "id": "doc-3",
+      "name": "Dr. Elena Rostova",
+      "title": "MD, FAAD",
+      "specialty": "Dermatology & Skin Wellness",
+      "email": "e.rostova@harmonyhealthclinic.com",
+      "phone": "+1 (217) 555-0103",
+      "workingDays": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "workHours": {
+        "start": "09:00",
+        "end": "16:00"
+      },
+      "breakHours": {
+        "start": "12:00",
+        "end": "13:00"
+      },
+      "servicesOffered": [
+        "srv-3",
+        "srv-7"
+      ],
+      "roomNumber": "Dermatology Lab 105"
+    },
+    {
+      "id": "doc-4",
+      "name": "Dr. David Chen",
+      "title": "MD, FAAP",
+      "specialty": "Pediatrics & Adolescent Care",
+      "email": "d.chen@harmonyhealthclinic.com",
+      "phone": "+1 (217) 555-0104",
+      "workingDays": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "workHours": {
+        "start": "08:30",
+        "end": "16:30"
+      },
+      "breakHours": {
+        "start": "12:30",
+        "end": "13:30"
+      },
+      "servicesOffered": [
+        "srv-1",
+        "srv-5",
+        "srv-8"
+      ],
+      "roomNumber": "Pediatrics Wing 110"
+    },
+    {
+      "id": "doc-5",
+      "name": "Dr. Rachel Patel",
+      "title": "DO, FAAFP",
+      "specialty": "Family Medicine & Preventive Care",
+      "email": "r.patel@harmonyhealthclinic.com",
+      "phone": "+1 (217) 555-0105",
+      "workingDays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "workHours": {
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "breakHours": {
+        "start": "13:00",
+        "end": "14:00"
+      },
+      "servicesOffered": [
+        "srv-1",
+        "srv-2",
+        "srv-6",
+        "srv-8"
+      ],
+      "roomNumber": "Family Practice 103"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "name": "General Health Consultation",
+      "category": "Primary Care",
+      "description": "Comprehensive physical assessment, vitals check, chronic care review, and primary care medical guidance.",
+      "durationMinutes": 30,
+      "consultationFee": 95,
+      "isActive": true
+    },
+    {
+      "id": "srv-2",
+      "name": "Annual Preventive Wellness Exam",
+      "category": "Preventive Care",
+      "description": "Full body routine health screening, routine bloodwork order, lifestyle counseling, and preventive risk analysis.",
+      "durationMinutes": 45,
+      "consultationFee": 160,
+      "isActive": true
+    },
+    {
+      "id": "srv-3",
+      "name": "Dermatology Skin Evaluation",
+      "category": "Specialty Care",
+      "description": "Full dermoscopic skin check, mole screening, acne management, and eczema diagnosis.",
+      "durationMinutes": 30,
+      "consultationFee": 140,
+      "isActive": true
+    },
+    {
+      "id": "srv-4",
+      "name": "Cardiology Assessment & ECG Review",
+      "category": "Specialty Care",
+      "description": "Cardiovascular risk evaluation, 12-lead ECG tracing review, blood pressure optimization, and arrhythmia follow-up.",
+      "durationMinutes": 45,
+      "consultationFee": 210,
+      "isActive": true
+    },
+    {
+      "id": "srv-5",
+      "name": "Pediatric Well-Child Checkup",
+      "category": "Pediatrics",
+      "description": "Growth and milestone development assessment, immunization scheduling, vision/hearing check for infants and children.",
+      "durationMinutes": 30,
+      "consultationFee": 85,
+      "isActive": true
+    },
+    {
+      "id": "srv-6",
+      "name": "Chronic Disease Follow-up",
+      "category": "Chronic Care",
+      "description": "Follow-up for hypertension, diabetes type 2, asthma, or thyroid conditions with lab reviews.",
+      "durationMinutes": 30,
+      "consultationFee": 80,
+      "isActive": true
+    },
+    {
+      "id": "srv-7",
+      "name": "Minor Skin Lesion Cryotherapy",
+      "category": "Specialty Care",
+      "description": "Targeted liquid nitrogen cryosurgery for benign warts, seborrheic keratoses, and actinic keratoses.",
+      "durationMinutes": 20,
+      "consultationFee": 120,
+      "isActive": true
+    },
+    {
+      "id": "srv-8",
+      "name": "Flu & Travel Vaccination Visit",
+      "category": "Immunization",
+      "description": "Seasonal influenza vaccine administration or international travel immunization consultation and record issuance.",
+      "durationMinutes": 20,
+      "consultationFee": 45,
+      "isActive": true
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-001",
+      "fullName": "scsa",
+      "email": "",
+      "phone": "9999999967",
+      "administrativeNotes": "",
+      "createdAt": "2026-10-29T04:42:47.020Z"
+    }
+  ],
+  "appointments": [
+    {
+      "patientId": "pat-001",
+      "patientName": "scsa",
+      "patientPhone": "9999999967",
+      "patientEmail": "",
+      "doctorId": "doc-4",
+      "doctorName": "Dr. David Chen",
+      "serviceId": "srv-1",
+      "serviceName": "General Health Consultation",
+      "date": "2026-10-29",
+      "startTime": "08:30",
+      "endTime": "09:00",
+      "durationMinutes": 30,
+      "status": "Pending",
+      "notes": "",
+      "reminderSent": false,
+      "id": "apt-001",
+      "bookingReference": "MF-10001",
+      "createdAt": "2026-10-29T04:42:47.023Z",
+      "updatedAt": "2026-10-29T04:42:47.023Z"
+    }
+  ],
+  "inquiries": [],
+  "automations": [
+    {
+      "id": "auto-1",
+      "name": "Appointment Request Processing",
+      "description": "Automatically validates requested doctor slot availability, validates patient contact, checks for calendar collisions, creates pending record, and queues staff notification.",
+      "trigger": "New patient appointment booking request",
+      "enabled": true,
+      "executionCount": 1,
+      "actions": [
+        "Validate schedule availability & doctor roster",
+        "Verify conflict-free calendar slot",
+        "Generate unique booking reference (MF-XXXXX)",
+        "Send automated confirmation / pending notice to patient"
+      ],
+      "lastExecutedAt": "2026-10-29T04:42:47.025Z"
+    },
+    {
+      "id": "auto-2",
+      "name": "Smart Appointment Reminders",
+      "description": "Identifies appointments scheduled within 24 hours, drafts personalized pre-visit instructions and time reminders, and marks delivery status.",
+      "trigger": "Scheduled hourly check (24h before appointment)",
+      "enabled": true,
+      "executionCount": 0,
+      "actions": [
+        "Scan upcoming appointments within 24-hour window",
+        "Compose patient reminder with room number & doctor name",
+        "Attach fasting or clinical prep guidelines if applicable",
+        "Record delivery timestamp in audit trail"
+      ]
+    },
+    {
+      "id": "auto-3",
+      "name": "Inquiry Classification & Routing",
+      "description": "Uses Google Gemini to analyze patient message semantics, categorize the topic, evaluate urgency/priority, and automatically route urgent or medical issues to clinical staff.",
+      "trigger": "New incoming inquiry or chat escalation",
+      "enabled": true,
+      "executionCount": 0,
+      "actions": [
+        "Analyze incoming text with Gemini classifier",
+        "Assign 1 of 6 official inquiry categories",
+        "Tag priority level (low, medium, high, urgent)",
+        "Route emergency/clinical questions to nurse triage queue"
+      ]
+    },
+    {
+      "id": "auto-4",
+      "name": "Daily Clinic Operations Summary",
+      "description": "Aggregates daily booking volume, cancellation metrics, doctor utilization, and outstanding inquiries into a concise administrative briefing for clinic management.",
+      "trigger": "Daily at 17:30 or on-demand execution",
+      "enabled": true,
+      "executionCount": 0,
+      "actions": [
+        "Aggregate appointment count, completions, no-shows",
+        "Calculate clinic cancellation & conversion rates",
+        "Summarize open inquiries requiring receptionist attention",
+        "Generate executive narrative with Gemini"
+      ]
+    },
+    {
+      "id": "auto-5",
+      "name": "Missed Appointment Follow-up",
+      "description": "Detects when an appointment is marked as No-show, drafts a compassionate follow-up message with rebooking links, and queues it for receptionist review.",
+      "trigger": "Appointment status updated to No-show",
+      "enabled": true,
+      "executionCount": 0,
+      "actions": [
+        "Detect No-show status trigger",
+        "Create administrative follow-up task for receptionist",
+        "Draft polite check-in message with available rebooking slots",
+        "Require receptionist review before sending"
+      ]
+    }
+  ],
+  "executions": [
+    {
+      "id": "exec-1793248967025-709",
+      "ruleId": "auto-1",
+      "ruleName": "Appointment Request Processing",
+      "triggerEvent": "Booking request for scsa",
+      "status": "Success",
+      "details": "Slot validated. Reference MF-10001 created with Dr. David Chen.",
+      "timestamp": "2026-10-29T04:42:47.025Z"
+    }
+  ],
+  "reports": [],
+  "auditLogs": [
+    {
+      "id": "log-1793248967023-174",
+      "action": "Create Appointment",
+      "entityType": "Appointment",
+      "entityId": "apt-001",
+      "userRole": "receptionist",
+      "details": "Created appointment MF-10001 for scsa",
+      "timestamp": "2026-10-29T04:42:47.023Z"
+    },
+    {
+      "id": "log-1793248967020-62",
+      "action": "Add Patient",
+      "entityType": "Patient",
+      "entityId": "pat-001",
+      "userRole": "receptionist",
+      "details": "Registered patient scsa",
+      "timestamp": "2026-10-29T04:42:47.020Z"
+    }
+  ]
+}
